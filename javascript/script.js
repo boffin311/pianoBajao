@@ -222,7 +222,26 @@ var keyData = {
     sound: new Howl(
       { src: ['/sounds/zig-zag.mp3'] }
     )
-  }
+  },
+  j: {
+    color: "green",
+    sound: new Howl(
+      { src: ['/sounds/prism.mp3'] }
+    )
+  },
+  k: {
+    color: "green",
+    sound: new Howl(
+      { src: ['/sounds/strike.mp3'] }
+    )
+  },
+  l: {
+    color: "green",
+    sound: new Howl(
+      { src: ['/sounds/wipe.mp3'] }
+    )
+  },
+  
 }
 var circles = [];
 function onKeyDown(event) {
